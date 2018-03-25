@@ -11,3 +11,17 @@ ul.nav.navbar-nav.navbar-right.social{
 .navbar-default .navbar-nav>li>a {
     color: #edededed;
 }
+
+.header-background {
+    background: url("../images/background.jpg")no-repeat center center fixed !important;
+    background-size: cover !important;
+}
+#home .header-background #v-card-holder #v-card{
+	background: rgba(174, 233, 242, 0.9);
+}
+#home .header-background #v-card-holder #v-card #profile .slant {
+    border-color: transparent transparent transparent rgba(174, 233, 242, 0.9);;
+    }
+
+.gray.darken-3{background-color: #292929 !important}
+.pinkm.darken-3{background-color: #f64060!important}
