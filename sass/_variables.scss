@@ -6,14 +6,17 @@
 ///*                      PRIMARY AND ACCENT COLORS                         */
 ///*    SIX PROVIDED COLORS CAN BE FOUND ON FOLDER COLORS/COLORS.TXT        */
 ///*========================================================================*/
-$primary-color: #54EBFF;
-$accent-color: #1976D2;
+$primary-color: hsl(187, 100%, 75%);
+$accent-color: hsl(35, 85%, 52%);
+$complement-color : hsl(207, 69%, 35%);
 
 $primary-color-light: lighten($primary-color, 7%);
 $primary-color-dark: darken($primary-color, 12%);
-
 $accent-color-light: lighten($accent-color, 7%);
 $accent-color-dark: darken($accent-color, 12%);
+$complement-color-light: lighten($complement-color, 7%);
+$complement-color-dark: darken($complement-color, 12%);
+
 $body-color: #f5f5f5;
 $body-color-dark: darken($body-color, 10%);
 $white: #fff;

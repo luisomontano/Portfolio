@@ -5,7 +5,7 @@
 /*skills section*/
 #skills {
   .card {
-    background: $primary-color;
+    background: $complement-color;
     /*skills title*/
     .skills-title {
       /*skills title*/
@@ -25,7 +25,7 @@
       margin-top: 45px;
       width: 100%;
       padding: 0 0;
-      background: $primary-color-dark;
+      background: $complement-color-dark;
       height: 4px;
       -webkit-transition: 0.4s linear;
       -moz-transition: 0.4s linear;
