@@ -278,7 +278,7 @@ html .btn, body .btn { padding-top: 8px; }
 
 #home .menu .logo-flat { /*menu logo*/ height: 200px; margin-top: -14px; background: #80f0ff; }
 
-#home .menu .logo-flat img { /*logo image*/ width: 100%; padding: 30px 44px 44px 44px; }
+#home .menu .logo-flat img { /*logo image*/ width: 100%; padding: 15px 20px; }
 
 #home .menu-open { /*set left 0 to open menu*/ left: 0; }
 
@@ -442,7 +442,7 @@ html .btn, body .btn { padding-top: 8px; }
 @media screen and (max-width: 768px) { .timeline-block .timeline-content:before { /*horizontal line hide at screen size*/ display: none; } }
 
 @media only screen and (min-width: 768px) { /*properties for min width 768*/
-  #timeline-education::before { /*vertical line for education in in min width 768 */ left: 50%; margin-left: -2px; height: 77.1%; opacity: 0.4; background: #1c5f97; }
+  #timeline-education::before { /*vertical line for education in in min width 768 */ left: 50%; margin-left: -2px; height: 76.1%; opacity: 0.4; background: #1c5f97; }
   #timeline-experience::before { /*vertical line for experience in min width 768 */ left: 50%; margin-left: -2px; height: 69.1%; opacity: 0.4; background: #1c5f97; }
   .timeline-block { /*timeline block in min width 768*/ margin: -5em 0; }
   .timeline-block .card { margin: 0; }
