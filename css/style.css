@@ -52,6 +52,10 @@ ul.nav.navbar-nav.navbar-right.social {
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
+#portfolios #portfolios-card .tab-content figure.port-effect p:nth-child(3) {
+    bottom: 5%;
+}
+
 @media only screen and (min-width: 768px) {
     #timeline-experience .timeline-dot {
         display: flex;

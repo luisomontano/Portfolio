@@ -494,7 +494,7 @@ html .btn, body .btn { padding-top: 8px; }
 
 #portfolios #portfolios-card .tab-content .grid figure figcaption, #portfolios #portfolios-card .tab-content .grid figure figcaption > a { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 
-#portfolios #portfolios-card .tab-content figure.port-effect:hover figcaption::before, #portfolios #portfolios-card .tab-content figure.port-effect:hover p { opacity: 1; -webkit-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); }
+#portfolios #portfolios-card .tab-content figure.port-effect:hover figcaption::before, #portfolios #portfolios-card figure.port-effect:hover .tab-content figcaption::before, #portfolios #portfolios-card .tab-content figure.port-effect:hover p, #portfolios #portfolios-card figure.port-effect:hover .tab-content p { opacity: 1; -webkit-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); }
 
 @media screen and (max-width: 747px) { #portfolios #portfolios-card .tab-content .big { /*big tile width*/ } }
 
@@ -518,23 +518,29 @@ html .btn, body .btn { padding-top: 8px; }
 
 #portfolios #portfolios-card .tab-content .grid figure h2 span { /*span tag inside  h2*/ font-weight: 800; }
 
-#portfolios #portfolios-card .tab-content .grid figure p { /*portfolio paragraph small description*/ margin: 0; letter-spacing: 1px; font-size: 56.5%; }
+#portfolios #portfolios-card .tab-content .grid figure p { /*portfolio paragraph small description*/ margin: 0; letter-spacing: 1px; font-size: 56.5%; /*buttons links */ }
 
-@media screen and (min-width: 540px) and (max-width: 766px) { #portfolios #portfolios-card .tab-content .grid { /*max grid size in screen range*/ max-width: 50%; } }
+#portfolios #portfolios-card .tab-content .grid figure p .primary-color { background: #80f0ff; }
 
-#portfolios #portfolios-card .tab-content figure.port-effect { /*portfolio effect*/ }
+#portfolios #portfolios-card .tab-content .grid figure p .accent-color { background: #ed961d; }
 
-#portfolios #portfolios-card .tab-content figure.port-effect figcaption::before { /*caption before*/ position: absolute; top: 0; left: 0; width: 100%; height: 100%; /*  background: -webkit-linear-gradient(top, rgba(72, 76, 97, 0) 0, $port_overlay 75%); background: linear-gradient(to bottom, rgba(72, 76, 97, 0) 0, $port_overlay 75%);*/ background: rgba(0, 0, 0, 0.7); content: ''; opacity: 0; -webkit-transform: translate3d(0, 50%, 0); transform: translate3d(0, 50%, 0); -webkit-transition: opacity 0.35s, -webkit-transform 0.35s; transition: opacity 0.35s, transform 0.35s; }
+#portfolios #portfolios-card .tab-content .grid figure p .complement-color { background: #1c5f97; }
 
-#portfolios #portfolios-card .tab-content figure.port-effect h2 { /*portfolio caption header*/ position: absolute; top: 50%; left: 0; width: 100%; color: rgba(72, 76, 97, 0.22); -webkit-transition: -webkit-transform 0.35s, color 0.35s; transition: transform 0.35s, color 0.35s; -webkit-transform: translate3d(0, -50%, 0); transform: translate3d(0, -50%, 0); }
+@media screen and (min-width: 540px) and (max-width: 766px) { #portfolios #portfolios-card .grid { /*max grid size in screen range*/ max-width: 50%; } }
 
-#portfolios #portfolios-card .tab-content figure.port-effect p { /*portfolio paragraph small description*/ -webkit-transition: opacity 0.35s, -webkit-transform 0.35s; transition: opacity 0.35s, transform 0.35s; position: absolute; bottom: 0; left: 0; padding: 2em; width: 100%; opacity: 0; -webkit-transform: translate3d(0, 10px, 0); transform: translate3d(0, 10px, 0); color: #fff; }
+#portfolios #portfolios-card figure.port-effect { /*portfolio effect*/ }
 
-#portfolios #portfolios-card .tab-content figure.port-effect:hover { /*hover effect*/ }
+#portfolios #portfolios-card figure.port-effect figcaption::before { /*caption before*/ position: absolute; top: 0; left: 0; width: 100%; height: 100%; /*  background: -webkit-linear-gradient(top, rgba(72, 76, 97, 0) 0, $port_overlay 75%); background: linear-gradient(to bottom, rgba(72, 76, 97, 0) 0, $port_overlay 75%);*/ background: rgba(0, 0, 0, 0.7); content: ''; opacity: 0; -webkit-transform: translate3d(0, 50%, 0); transform: translate3d(0, 50%, 0); -webkit-transition: opacity 0.35s, -webkit-transform 0.35s; transition: opacity 0.35s, transform 0.35s; }
 
-#portfolios #portfolios-card .tab-content figure.port-effect:hover h2 { /*hover effect for portfolio header*/ color: #ed961d; -webkit-transform: translate3d(0, -50%, 0) translate3d(0, -40px, 0); transform: translate3d(0, -50%, 0) translate3d(0, -40px, 0); }
+#portfolios #portfolios-card figure.port-effect h2 { /*portfolio caption header*/ position: absolute; top: 50%; left: 0; width: 100%; color: rgba(72, 76, 97, 0.22); -webkit-transition: -webkit-transform 0.35s, color 0.35s; transition: transform 0.35s, color 0.35s; -webkit-transform: translate3d(0, -50%, 0); transform: translate3d(0, -50%, 0); }
 
-#portfolios .btn-large { color: #ed961d !important; background: #f5f5f5 !important; margin-bottom: 10px !important; }
+#portfolios #portfolios-card figure.port-effect p { /*portfolio paragraph small description*/ -webkit-transition: opacity 0.35s, -webkit-transform 0.35s; transition: opacity 0.35s, transform 0.35s; position: absolute; bottom: 0; left: 0; padding: 2em; width: 100%; opacity: 0; -webkit-transform: translate3d(0, 10px, 0); transform: translate3d(0, 10px, 0); color: #fff; }
+
+#portfolios #portfolios-card figure.port-effect:hover { /*hover effect*/ }
+
+#portfolios #portfolios-card figure.port-effect:hover h2 { /*hover effect for portfolio header*/ color: #ed961d; -webkit-transform: translate3d(0, -50%, 0) translate3d(0, -40px, 0); transform: translate3d(0, -50%, 0) translate3d(0, -40px, 0); }
+
+.btn-large { color: #ed961d !important; background: #f5f5f5 !important; margin-bottom: 10px !important; }
 
 @keyframes InLeft { /*keyframe for slide in left*/
   from { -webkit-transform: translate3d(-100%, 0, 0);
@@ -550,7 +556,7 @@ html .btn, body .btn { padding-top: 8px; }
   to { -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0); } }
 
-#portfolios .InLeft { /*animation slide in left*/ -webkit-animation-name: InLeft; animation-name: InLeft; -webkit-animation-duration: .8s; animation-duration: .8s; -webkit-animation-fill-mode: both; animation-fill-mode: both; }
+.InLeft { /*animation slide in left*/ -webkit-animation-name: InLeft; animation-name: InLeft; -webkit-animation-duration: .8s; animation-duration: .8s; -webkit-animation-fill-mode: both; animation-fill-mode: both; }
 
 @-webkit-keyframes InRight { /*keyframe for slide in right*/
   from { -webkit-transform: translate3d(100%, 0, 0);
@@ -566,7 +572,7 @@ html .btn, body .btn { padding-top: 8px; }
   to { -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0); } }
 
-#portfolios .InRight { /*animation slide in right*/ -webkit-animation-name: InRight; animation-name: InRight; -webkit-animation-duration: .8s; animation-duration: .8s; -webkit-animation-fill-mode: both; animation-fill-mode: both; }
+.InRight { /*animation slide in right*/ -webkit-animation-name: InRight; animation-name: InRight; -webkit-animation-duration: .8s; animation-duration: .8s; -webkit-animation-fill-mode: both; animation-fill-mode: both; }
 
 /*
 -------------------------------------------------------------------------------
